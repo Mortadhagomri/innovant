@@ -1,0 +1,20 @@
+.input {
+  width: 100%;
+  margin-bottom: 1rem;
+  border: 0;
+  outline: 0;
+  font-size: 1.1rem;
+  padding: 0.75rem 1.25rem;
+  border: 2px #707070 solid;
+  border-radius: 4px;
+}
+.input_error {
+  border: 2px tomato solid;
+  color: tomato;
+}
+.group_input {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
