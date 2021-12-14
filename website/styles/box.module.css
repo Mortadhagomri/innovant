@@ -1,0 +1,30 @@
+.box_container {
+  width: 536px;
+  height: 150px;
+  display: flex;
+  border: 1px solid #707070;
+  background-color: #fff;
+  border-radius: 8px;
+  opacity: 1;
+}
+.left_choice {
+  padding-top: 0.5rem;
+  border-right: 0.01rem solid #707070;
+  width: 286px;
+  padding: 1rem;
+}
+.right_choice {
+  padding-top: 0.5rem;
+  border-left: 0.01rem solid #707070;
+  width: 286px;
+  padding: 1rem;
+}
+.box_title {
+  margin-top: 1rem;
+  font-weight: 600;
+  text-align: left;
+}
+.box_subtitle {
+  font-weight: 300;
+  text-align: left;
+}

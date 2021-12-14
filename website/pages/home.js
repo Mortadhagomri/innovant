@@ -1,11 +1,18 @@
 import MainLayout from '../layout/mainLayout';
-import Form from '../components/form';
+import styles from '../styles/Home.module.css';
+
 
 
 const Home = () => {
     return (
         <MainLayout>
-            <Form action="/home" />
+            <div className={styles.container_home}>
+                <div className={styles.logo_container}>
+                    <div className={styles.left}></div>
+                    <div className={styles.right}></div>
+                </div>
+                <p className={styles.text_home}>The Logo Above is Made in Pure CSS</p>
+            </div>
         </MainLayout>
     );
 }
