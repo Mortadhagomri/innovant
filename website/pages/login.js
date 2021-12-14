@@ -8,10 +8,10 @@ import styles from "../styles/form.module.css";
 const Login = () => {
     return (
         <MainLayout>
-            <BoxChoice />
+            <BoxChoice page="login" />
             <form className={styles.form} action="/login" method="POST">
-                <Input type="email" placeholder="Email" name="email" />
-                <Input type="password" placeholder="Password" name="password" />
+                <Input type="email" placeholder="Email*" name="email" required />
+                <Input type="password" placeholder="Password*" name="password" required />
                 <Button textBtn="Submit" />
             </form>
         </MainLayout>

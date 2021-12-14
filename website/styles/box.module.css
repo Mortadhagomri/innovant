@@ -1,4 +1,5 @@
 .box_container {
+  position: relative;
   width: 536px;
   height: 150px;
   display: flex;
@@ -27,4 +28,16 @@
 .box_subtitle {
   font-weight: 300;
   text-align: left;
+}
+.check_icon {
+  position: absolute;
+  top: -19px;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  background-color: #a88c6a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
