@@ -11,9 +11,9 @@ const Navbar = () => {
         <nav className={styles.navbar}>
             <Image src="/logo.png" alt="Logo" width={50} height={50} />
             <ul className={styles.navbar_list}>
-                <NavLink href="/home" currentPath={router.pathname} >Home</NavLink>
+                <NavLink href="/" currentPath={router.pathname} >Home</NavLink>
                 <NavLink href="/about" currentPath={router.pathname} >About</NavLink>
-                <NavLink href="/contact-us" currentPath={router.pathname} >Contact us</NavLink>
+                <NavLink href="/contact" currentPath={router.pathname} >Contact us</NavLink>
             </ul>
             <div className={styles.user}>
                 AR

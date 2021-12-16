@@ -41,7 +41,7 @@ const Register = () => {
                     return
                 }
                 Cookies.set("user", result);
-                router.push('/home')
+                router.push('/')
             })
 
     }
@@ -73,7 +73,7 @@ export const getServerSideProps = (ctx) => {
         return {
             props: {},
             redirect: {
-                destination: "/home",
+                destination: "/",
                 permanent: false,
             },
         };
