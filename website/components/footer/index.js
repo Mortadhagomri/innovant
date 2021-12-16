@@ -1,11 +1,11 @@
 import React from 'react';
-import style from '../../styles/Home.module.css';
 import Image from 'next/image';
+import styles from '../../styles/footer.module.css';
 
 const Footer = () => {
     return (
-        <footer className={style.footer}>
-            <div className={style.logo}>
+        <footer className={styles.footer}>
+            <div className={styles.logo}>
                 <Image src="/logo.png" alt="Logo" width={100} height={100} />
                 <p>© All Rights Reserved.</p>
             </div>
